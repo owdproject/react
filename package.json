@@ -2,10 +2,10 @@
   "name": "@owdproject/react",
   "version": "4.0.0-alpha.3",
   "description": "Official React 18/19 adapter for @owdproject/core",
-  "homepage": "https://github.com/owdproject/react#readme",
+  "homepage": "https://github.com/owdproject/core#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/owdproject/react.git"
+    "url": "git+https://github.com/owdproject/core.git"
   },
   "author": {
     "name": "Diego Villa (@dxlliv)",
@@ -37,13 +37,5 @@
   },
   "peerDependencies": {
     "react": ">=18.0.0"
-  },
-  "scripts": {
-    "build": "unbuild",
-    "prepack": "unbuild"
-  },
-  "devDependencies": {
-    "unbuild": "^3.6.1",
-    "typescript": "~6.0.3"
   }
 }
