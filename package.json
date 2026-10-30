@@ -1,11 +1,11 @@
 {
   "name": "@owdproject/react",
   "version": "4.0.0-alpha.3",
-  "description": "Official React 18/19 adapter for @owdproject/core",
-  "homepage": "https://github.com/owdproject/core#readme",
+  "description": "Official React 18/19 adapter for @owdproject/react",
+  "homepage": "https://github.com/owdproject/react#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/owdproject/core.git"
+    "url": "git+https://github.com/owdproject/react.git"
   },
   "author": {
     "name": "Diego Villa (@dxlliv)",
@@ -33,7 +33,7 @@
     }
   },
   "dependencies": {
-    "@owdproject/core": "^4.0.0-alpha.3"
+    "@owdproject/react": "^4.0.0-alpha.3"
   },
   "peerDependencies": {
     "react": ">=18.0.0"
