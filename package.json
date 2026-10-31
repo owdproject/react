@@ -1,7 +1,7 @@
 {
   "name": "@owdproject/react",
   "version": "4.0.0-alpha.3",
-  "description": "Official React 18/19 adapter for @owdproject/react",
+  "description": "Official React 18/19 adapter for @owdproject/core",
   "homepage": "https://github.com/owdproject/react#readme",
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
     "dist",
     "README.md"
   ],
+  "scripts": {
+    "build": "unbuild",
+    "prepack": "unbuild"
+  },
   "publishConfig": {
     "access": "public",
     "tag": "alpha",
@@ -33,9 +37,13 @@
     }
   },
   "dependencies": {
-    "@owdproject/react": "^4.0.0-alpha.3"
+    "@owdproject/core": "^4.0.0-alpha.3"
   },
   "peerDependencies": {
     "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "unbuild": "^3.6.1",
+    "typescript": "~6.0.3"
   }
 }
