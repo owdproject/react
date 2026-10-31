@@ -1,6 +1,6 @@
 {
   "name": "@owdproject/react",
-  "version": "4.0.0-alpha.3",
+  "version": "4.0.0-alpha.4",
   "description": "Official React 18/19 adapter for @owdproject/core",
   "homepage": "https://github.com/owdproject/react#readme",
   "repository": {
