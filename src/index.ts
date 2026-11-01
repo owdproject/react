@@ -13,11 +13,12 @@ import {
   type WindowState,
   type WindowBounds,
   type DesktopWorkareaRect,
-  type SnapZoneHint,
   type ResizeDirection,
 } from '@owdproject/core'
+import type { SnapZoneHint } from '@owdproject/core/types'
 
 export * from '@owdproject/core'
+export * from './applications'
 
 export function useDesktop(desktop: Desktop): DesktopSnapshot & { desktop: Desktop } {
   const subscribe = useCallback(
